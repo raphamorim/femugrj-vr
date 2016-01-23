@@ -177,7 +177,7 @@ function init() {
 			transparent: true,
 			alphaTest: 0.5,
 			side: THREE.FrontSide,
-			map: THREE.ImageUtils.loadTexture('images/background-overlay.png')
+			map: THREE.ImageUtils.loadTexture('../assets/images/background-overlay.png')
 	}));
 	overlay.add( mesh );
 	overlay.position.set( 0, -3, -5 );
